@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- *
+ * Description: Get  a random it with 5
  * Return Always 0 (success)
  */
 
