@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * main - main block
  * Description: Get  a random it with 5
  * Return Always 0 (success)
  */
