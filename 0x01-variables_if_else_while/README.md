@@ -9,4 +9,4 @@
 #Hexadecimal
 #Patience, persistence and perspiration make an unbeatable combination for success
 #Inventing is a combination of brains and materials
-#Software is eating the World
+#The success combination in business is
