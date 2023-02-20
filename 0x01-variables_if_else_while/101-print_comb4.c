@@ -1,5 +1,6 @@
 #include <stdio.h>
-/**main - main block
+/** 
+ * main - main block
  * Description: Write a program that prints possible
  * different combinations of three digits
  * Return: Always 0 (success)
@@ -24,7 +25,7 @@ int main(void)
 					putchar('0' + e);
 					putchar('0' + d);
 					putchar('0' + c);
-					if ( c + d + e != 9 + 8 + 7)
+					if (c + d + e != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
