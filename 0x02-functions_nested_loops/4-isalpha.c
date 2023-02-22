@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * _isalphat - checks for alphabetic charecter
+ * _isalphat - checks for alphabetic charecter.
+ * Shows 1 if the input is a
+ * letter Another cases, show 0
  *
  * @c: The character in ASCII code
- * Returns: 1 for letters. 0 for the rest
+ * Returns: 1 for alphabetic character or 0 for anything else
  */
 
 int _isalpha(int c)
@@ -16,5 +18,6 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	putchar('\n')
+	putchar('\n');
+	return (1);
 }
