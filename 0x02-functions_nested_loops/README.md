@@ -7,3 +7,4 @@
 6. There is no such thing as absolute value in this world
 7. There are only 3 colors, 10 digits, and 7 notes
 8. I'm federal agent Jack Bauer, and today is the longest day of my life
+9. Learn your times table
