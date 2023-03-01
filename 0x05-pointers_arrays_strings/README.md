@@ -9,3 +9,4 @@
 8. Arrays are not pointers
 9. strcpy
 10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
+11. Don't hate the hacker, hate the code
