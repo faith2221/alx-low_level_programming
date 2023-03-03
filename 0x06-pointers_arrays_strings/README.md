@@ -7,3 +7,4 @@
 6. Expect the best. Prepare for the worst. Capitalize on what comes
 7. Mozart composed his music not for the elite, but for everybody
 8. rot13
+9. Numbers have life; they're not just symbols on paper
