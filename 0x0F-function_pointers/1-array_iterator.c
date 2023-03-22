@@ -4,7 +4,7 @@
  * array_iterator - prints each array elem on a newline
  * @array: array
  * @size: how many elem to print
- * action: pointer to print in regular or hex
+ * @action: pointer to print in regular or hex
  * Return: void
  */
 
