@@ -9,16 +9,12 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int i, index = 0;
-	unsigned long int num;
-	unsigned long int new = n ^ m;
+	unsigned int num;
 
-	for (i = 31; i >= 0; i--)
+	for (num = 0; n || m; n >>= 1, m >>= 1)
 	{
-		num = new >> i;
-
-		if (num & 1)
-			index++;
+		if ((n & 1) != (m & 1))
+			num++;
 	}
-	return (index);
+	return (num);
 }
