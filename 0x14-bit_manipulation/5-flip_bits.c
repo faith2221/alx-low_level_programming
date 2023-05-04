@@ -7,17 +7,14 @@
  * Return: The number of bits to change
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int n, unsigned int long m)
 {
-	int j, res = 0;
-	unsigned long int nbits;
-	unsigned long int num = n ^ m;
+	unsigned int num;
 
-	for (j = 31; j >= 0; j--)
+	for (num = 0; n || m; n >>= 1, m >>= 1)
 	{
-		nbits = num >> j;
-		if (nbits & 1)
-			res++;
+		if ((n & 1) != (m & 1))
+			num++;
 	}
-	return (res);
+	return (num);
 }
