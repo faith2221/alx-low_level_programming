@@ -13,3 +13,5 @@ TASKS
 6. Sum list
 7. Insert at index
 8. Delete at index
+9. Crackme4
+10. Palindromes
